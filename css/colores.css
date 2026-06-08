@@ -1,0 +1,16 @@
+:root{
+    --color-fondo:      #0f0500;
+  --color-header:     #270f00;
+  --color-card:       #492502;
+  --color-borde:      #3d1f00;
+
+  --color-acento:     #c8843a;
+  --color-hover:      #e09040;
+  --color-activo:     #8a4a10;
+
+  --color-texto:      #f5e6c8;
+  --color-texto-2:    #c8a87a;
+  --color-texto-3:    #805627;
+
+  --nav-height:       60px;
+}

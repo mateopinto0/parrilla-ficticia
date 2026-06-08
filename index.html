@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parrilla</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/colores.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    
+    <header class="position-fixed w-100  z-3">
+        <nav class="d-flex align-items-center justify-content-center flex-row gap-4 p-2">
+            <a href="#" class="nav-item text-decoration-none ">Inicio</a>
+            <a href="#carta" class="nav-item text-decoration-none ">Platos destacados</a>
+            <a href="#sobre-nosotros" class="nav-item text-decoration-none ">Quienes somos</a>
+            <a href="#contacto" class="nav-item text-decoration-none ">Contacto</a>
+        </nav>
+    </header>
+
+    <section class=" d-flex min-vh-100 w-100 align-items-center justify-content-center flex-column gap-1 pt-5">
+        <video autoplay muted loop playsinline class="video-fondo">
+            <source src="./src/video/video-hero.mp4" type="video/mp4">
+         </video>
+         <div class="overlay"></div>
+        <div class="d-flex flex-column g-1 align-items-center justify-content-center z-1">
+            <p class="border-claro p-1 text-2">Desde 1987 ° Palermo, Buenos Aires</p>
+            <h1 class="text-1">La Brasa Dorada</h1>
+            <h5 class="text-2">Parrilla & Vinos ° Cocina a fuego lento</h5>
+            <div class="d-flex align-items-center justify-content-center flex-row gap-4">
+                <button class="btn btn-hero">Reservar Mesa</button>
+                <button class="btn btn-hero">Ver Menu</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="carta" class="py-5">
+        <h6 class="text-3 text-center">LO QUE SERVIMOS</h6>
+        <h2 class="text-center mb-4">Carta destacada</h2>
+        <div class="container">
+            <div class="row g-3 justify-content-center">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card p-3 rounded-3 h-100">
+                        <img src="./src/img/bife-de-chorizo.webp" alt="bife-de-chorizo" class="">
+                        <h5 class="text-1">Bife de chorizo</h5>
+                        <p class="text-2">500g madurado 21 días, sal patagónica y chimichurri de la casa</p>
+                        <p class="text-2">$15.000</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card p-3 rounded-3 h-100">
+                        <img src="./src/img/tira-de-asado.webp" alt="tira-de-asado" class="">
+                        <h5 class="text-1">Asado de tira</h5>
+                        <p class="text-2">Corte clásico al fuego lento, 4 horas de cocción con leña de quebracho</p>
+                        <p class="text-2">$17.000</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card p-3 rounded-3 h-100">
+                        <img src="./src/img/achuras.webp" alt="achuras" class="">
+                        <h5 class="text-1">Achuras mixtas</h5>
+                        <p class="text-2">Chinchulines, mollejas y riñón a la parrilla con limón</p>
+                        <p class="text-2">$11.000</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card p-3 rounded-3 h-100">
+                        <img src="./src/img/reserva-malbec.webp" alt="vino" class="">
+                        <h5 class="text-1">Malbec Reserva</h5>
+                        <p class="text-2">Blend de Mendoza, 18 meses en barrica de roble francés</p>
+                        <p class="text-2">$7.000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-nosotros" class="py-5">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-md-6">
+                    <h5 class="text-3">NUESTRA HISTORIA</h5>
+                    <h3 class="text-1">Tres generaciones al pie del fuego</h3>
+                    <p class="text-2">Don Héctor Gutiérrez encendió la primera brasa en 1987 en un rincón de Palermo. Hoy su nieta Valentina lleva el legado con el mismo amor por la cocina lenta y la carne argentina.</p>
+                    <br>
+                    <p class="text-2">Trabajamos con productores de la Pampa húmeda y solo usamos leña de quebracho colorado, porque el fuego también tiene sabor.</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="row g-2 justify-content-center">
+                        <div class="col-6">
+                            <div class="card d-flex flex-column align-items-center element p-3">
+                                <h3 class="text-1" data-target="37">0</h3>
+                                <h5 class="text-2">AÑOS</h5>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card d-flex flex-column align-items-center element p-3">
+                                <h3 class="text-1" data-target="80000">0</h3>
+                                <h5 class="text-2">COMENSALES</h5>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card d-flex flex-column align-items-center element p-3">
+                                <h3 class="text-1" data-target="37">0</h3>
+                                <h5 class="text-2">CORTES</h5>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card d-flex flex-column align-items-center element p-3">
+                                <h3 class="text-1" data-target="4.9">0</h3>
+                                <h5 class="text-2">ESTRELLAS</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <h6 class="text-center text-3">LO QUE DICEN</h6>
+            <h3 class="text-center mb-4 text-1">RESEÑAS</h3>
+            <div class="row g-3 justify-content-center">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 p-3">
+                        <p class="text-2">"El bife de chorizo más tierno que probé en mi vida. El chimichurri es un secreto familiar que no comparten y que uno entiende."</p>
+                        <p class="text-3">— Mariana V., Google</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 p-3">
+                        <p class="text-2">"Vinimos de Rosario solo para comer acá. Valió absolutamente cada kilómetro. El ambiente de bodegón porteño es único."</p>
+                        <p class="text-3">— Rodrigo M., TripAdvisor</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 p-3">
+                        <p class="text-2">"Las mollejas son increíbles y la atención es de primera. Ya es el lugar de los domingos para toda mi familia."</p>
+                        <p class="text-3">— Laura P., Instagram</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <h3 class="text-center h3 text-1">Reserva tu mesa</h3>
+            <p class="text-center text-2">Martes a domingo · 12:00 – 15:30 y 20:00 – 00:00</p>
+
+            <div class="row g-3 d-flex justify-content-center">
+                <form id="form-reserva" class="d-flex gap-2 justify-content-center align-items-center flex-wrap">
+                    <input class="rounded-2 p-1" type="text" name="nombre" id="nombre" placeholder="Tu nombre" required>
+                    <input class="rounded-2 p-1" type="number" name="cantidad" id="personas" placeholder="Cantidad de personas" required>
+                    <input class="rounded-2 p-1" type="date" id="fecha" required>
+                    <input class="rounded-2 p-1" type="time" id="hora" required>
+                    <button id="btn-reserva" type="submit" class="btn btn-hero">Reservar por Whatsapp</button>
+                </form>
+            </div>
+            <p class="text-center mt-3 text-2">O llamanos al (011) 4833-7200 · Thames 1847, Palermo</p>
+        </div>
+    </section>
+
+    <footer class=" footer">
+        <p class="text-center text-3">© 2024 La Brasa Dorada · Thames 1847, Palermo, CABA · Todos los derechos reservados</p>
+    </footer>
+
+    <script src="./js/animaciones.js"></script>
+    <script src="./js/form-reserva.js"></script>
+</body>
+</html>
