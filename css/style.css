@@ -67,10 +67,10 @@ header{
 .border-claro{
     border: 1px solid var(--color-texto-2);
 }
-a{
+.nav-link{
     color: var(--color-texto);
 }
-a:hover{
+.nav-link:hover{
     transition: 0.2ms;
     color: var(--color-acento);
 }
