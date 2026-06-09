@@ -84,7 +84,13 @@ img{
     height: 20em;
     object-fit: cover;
 }
-
+#logo{
+    width: auto;
+    height: 90px;
+}
+nav{
+    margin-right: 1em;
+}
 @media screen and (max-width:580px) {
     body{
         font-size: 70%;

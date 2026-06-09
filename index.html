@@ -11,14 +11,39 @@
 </head>
 <body>
     
-    <header class="position-fixed w-100  z-3">
-        <nav class="d-flex align-items-center justify-content-center flex-row gap-4 p-2">
-            <a href="#" class="nav-item text-decoration-none ">Inicio</a>
-            <a href="#carta" class="nav-item text-decoration-none ">Platos destacados</a>
-            <a href="#sobre-nosotros" class="nav-item text-decoration-none ">Quienes somos</a>
-            <a href="#contacto" class="nav-item text-decoration-none ">Contacto</a>
-        </nav>
-    </header>
+    <header class="position-fixed w-100 z-3" style="background-color: var(--color-header);">
+    <nav class="navbar navbar-expand-lg px-4">
+        
+        
+        <a class="navbar-brand" href="#">
+            <img src="./src/img/logo.png" alt="logo" style="height: 50px; width: auto;">
+        </a>
+
+        <button class="navbar-toggler border-0" type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#menuNav">
+            <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuNav">
+            <ul class="navbar-nav ms-auto gap-3">
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-white">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#carta" class="nav-link text-white">Platos destacados</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre-nosotros" class="nav-link text-white">Quienes somos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contacto" class="nav-link text-white">Contacto</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+</header>
 
     <section class=" d-flex min-vh-100 w-100 align-items-center justify-content-center flex-column gap-1 pt-5">
         <video autoplay muted loop playsinline class="video-fondo">
@@ -168,6 +193,7 @@
         <p class="text-center text-3">© 2024 La Brasa Dorada · Thames 1847, Palermo, CABA · Todos los derechos reservados</p>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./js/animaciones.js"></script>
     <script src="./js/form-reserva.js"></script>
 </body>
